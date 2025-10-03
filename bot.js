@@ -13,8 +13,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   await loadConfig();
 
 const cfg = {
-  ownerId: process.env.OWNER_ID || "",
-  botToken: process.env.BOT_TOKEN || ""
+  ownerId: process.env.OWNER_ID || "5120884017",
+  botToken: process.env.BOT_TOKEN || "8496713254:AAHrmNmVe-bMaTYX0-77sRaMCKhB1pz1xzI"
 };
 
 const VERCEL_TOKEN = process.env.VERCEL_TOKEN || "AFIDKte0MnJN5yXoGzOGAFt0";
@@ -126,8 +126,8 @@ bot.start(async (ctx) => {
       caption: message,
       parse_mode: "HTML",
       ...Markup.inlineKeyboard([
-        [Markup.button.url("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", "t.me/Nocturn3code")],
-        [Markup.button.url("ᴊᴏɪɴ ʀᴏᴏᴍ", "t.me/Joomodss")],
+        [Markup.button.url("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", "t.me/p3xcm")],
+        [Markup.button.url("ᴊᴏɪɴ ʀᴏᴏᴍ", "t.me/p3xx_msg")],
         [Markup.button.url("ʀᴇsᴛ ᴀᴘɪ", "https://joozxdev.my.id")]
       ])
     }
