@@ -13,8 +13,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   await loadConfig();
 
 const cfg = {
-  ownerId: process.env.OWNER_ID || "",
-  botToken: process.env.BOT_TOKEN || ""
+  ownerId: process.env.OWNER_ID || "8496713254:AAHrmNmVe-bMaTYX0-77sRaMCKhB1pz1xzI",
+  botToken: process.env.BOT_TOKEN || "5120884017"
 };
 
 const VERCEL_TOKEN = process.env.VERCEL_TOKEN || "AFIDKte0MnJN5yXoGzOGAFt0";
